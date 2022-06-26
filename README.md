@@ -5,7 +5,7 @@ A simpler SMTP client for Node.js backend eviroment.
 You can get the library by cloning it like follow bellow:
 
 ```bach
-  npm install chopinjs
+npm install chopinjs
 ```
 
 After that, you can import the library on your node enviroment:
