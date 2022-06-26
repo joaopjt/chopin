@@ -24,7 +24,7 @@ import Chopin from 'chopinjs'
 const config = {
   host: 'mail.gmail.com',
   port: 587,
-  secure: false,
+  secure: false, // true for 465, false for other ports
   auth: {
     user: 'user@email.com',
     pass: 'foo@bar'
