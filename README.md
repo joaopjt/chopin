@@ -5,7 +5,7 @@ A simpler SMTP client for Node.js backend eviroment.
 You can get the library by cloning it like follow bellow:
 
 ```bach
-  npm install chopinjs
+npm install chopinjs
 ```
 
 After that, you can import the library on your node enviroment:
@@ -43,7 +43,7 @@ const client = new Chopin();
 const email = await client.send({
   from: 'contact@domain.com',
   to: 'example@email.com',
-  subject: 'Hello' 
+  subject: 'Hello',
   html: '<h1>Contact support</h1>'
 });
 ```
