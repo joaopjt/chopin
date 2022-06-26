@@ -43,7 +43,7 @@ const client = new Chopin();
 const email = await client.send({
   from: 'contact@domain.com',
   to: 'example@email.com',
-  subject: 'Hello' 
+  subject: 'Hello',
   html: '<h1>Contact support</h1>'
 });
 ```
