@@ -1,0 +1,31 @@
+{
+  "name": "chopinjs",
+  "version": "1.0.1",
+  "description": "A simpler SMTP client for Node.js backend eviroment.",
+  "keywords": [
+    "nodemailer",
+    "smtp",
+    "chopin",
+    "chopinjs"
+  ],
+  "main": "dist/index.min.js",
+  "repository": "https://github.com/joaopjt/chopin-js.git",
+  "author": "João Julio",
+  "license": "MIT",
+  "scripts": {
+    "build": "./node_modules/.bin/rollup -c"
+  },
+  "devDependencies": {
+    "babel-core": "6",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-env": "^1.7.0",
+    "cross-origin": "^1.0.6",
+    "rollup": "^0.66.6",
+    "rollup-plugin-babel": "3",
+    "rollup-plugin-babel-minify": "^6.1.1",
+    "rollup-plugin-uglify": "^6.0.0"
+  },
+  "dependencies": {
+    "nodemailer": "^6.7.5"
+  }
+}
